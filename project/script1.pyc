@@ -1,0 +1,8 @@
+from flask import flask
+apps=flask(_name_)
+@app.route('/')
+def home():
+     return" I am trying every things with python."
+
+if _name_ == "_main_":
+    app.run(debug = True)
